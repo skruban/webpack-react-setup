@@ -3,10 +3,7 @@ module.exports = {
     rules: [
       {
         test: /\.js$/,
-        loader: 'babel-loader',
-        query: {
-          presets: []
-        }
+        loader: 'babel-loader'
       }
     ]
   }
